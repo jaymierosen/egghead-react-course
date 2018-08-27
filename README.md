@@ -82,3 +82,6 @@ const element =
 <Message msg='Goodbye, world!' />
 </div>
 ```
+## Validate Custom React Component Props with PropTypes
+
+## Conditionally Render a React Component
