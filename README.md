@@ -36,12 +36,12 @@ An easier way to render an element is by using <strong>JSX</strong>:
 ```
 const element = <div className="container">Hello, world </div>;
 ```
-<strong>Interolation</strong>: we provide a variable with content as the value, and use { } to render out the value in the container div:
+Interolation: we provide a variable with content as the value, and use { } to render out the value in the container div:
 ```
 const content = 'Hello, world';
 const element = <div className="container">{content}</div>;
 ```
-<p>You can also use interpolation on the <code>className</code>, too:</p>
+You can also use interpolation on the <code>className</code>, too:
 ```
 const content = 'Hello, world';
 const className = 'container';
