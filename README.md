@@ -57,7 +57,7 @@ const element = <div {...props} />
 ## 3. Create a Simple Reusable React Component</h2>
 Interolation:
 ```
-const HelloWorld = <div>Hello, world!< /div>
+const HelloWorld = <div>Hello, world!</div>
 const element = <div className="container">{HelloWorld}</div>
 ```
 When we want to pass in <code>props</code> to render different two different pieces of content:
