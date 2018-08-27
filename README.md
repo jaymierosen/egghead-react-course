@@ -69,3 +69,4 @@ const element =
 <Message msg='Goodbye, world!' />
 </div>
 ```
+☝️This renders out `<div>Hello, world!</div> and <div>Goodbye, world!</div>`
