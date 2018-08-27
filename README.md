@@ -34,18 +34,18 @@ To create an <code>element</code>, you write <code>React.createElement</code> an
 ## 2. Replace React createElement Function Call with JSX</h2>
 An easier way to render an element is by using <strong>JSX</strong>:
 ```
-const element = < div className="container">Hello, world < /div >;
+const element = <div className="container">Hello, world </div>;
 ```
 <strong>Interolation</strong>: we provide a variable with content as the value, and use { } to render out the value in the container div:
 ```
 const content = 'Hello, world';
-const element = < div className="container">{content}< /div >;
+const element = <div className="container">{content}</div>;
 ```
 <p>You can also use interpolation on the <code>className</code>, too:</p>
 ```
 const content = 'Hello, world';
 const className = 'container';
-const element = < div className={className + '__hi-there'}>{content}< /div>;
+const element = <div className={className + '__hi-there'}>{content}</div>;
 ```
 Alternatively, you can create a <code>props</code> object:
 ```
@@ -55,17 +55,17 @@ const props = {
 children: 'Hello, world!',
 className: 'container'
 }
-const element = < div className={props.className + '__hi-there'}>{props.content}< /div>;
+const element = <div className={props.className + '__hi-there'}>{props.content}</div>;
 ```
 By using the <code>spread operator</code>, you can do cool stuff like:
 ```
-const element = < div {...props} />
+const element = <div {...props} />
 ```
 ## 3. Create a Simple Reusable React Component</h2>
 Interolation:
 ```
-const HelloWorld = < div>Hello, world!< /div>
-const element = < div className="container">{HelloWorld}< /div>
+const HelloWorld = <div>Hello, world!< /div>
+const element = <div className="container">{HelloWorld}</div>
 ```
 When we want to pass in <code>props</code> to render different two different pieces of content:
 ```
