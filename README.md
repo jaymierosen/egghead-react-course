@@ -74,7 +74,5 @@ const element =
 <div className="container">
 <Message msg='Hello, world!' />
 <Message msg='Goodbye, world!' />
-// {React.createElement(Message, {msg: 'Hello, world!'})}
-// {React.createElement(Message, {msg: 'Goodbye, world!'})}
 </div>
 ```
