@@ -71,3 +71,12 @@ const element =
 ```
 ☝️This renders out `<div>Hello, world!</div>` and `<div>Goodbye, world!</div>`
 When you capitalize the first letter of a variable, it becomes a component to be re-used.
+Using `code` can also be done this way:
+```
+const Message = (props) => <div>{msg}</div>
+const element =
+<div className="container">
+<Message msg='Hello, world!' />
+<Message msg='Goodbye, world!' />
+</div>
+```
